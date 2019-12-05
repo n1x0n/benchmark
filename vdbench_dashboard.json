@@ -14,7 +14,7 @@
     "editable": true,
     "gnetId": null,
     "graphTooltip": 1,
-    "id": 11,
+    "id": 1,
     "links": [],
     "panels": [{
             "collapsed": false,
@@ -772,6 +772,7 @@
                 "x": 0,
                 "y": 8
             },
+            "hiddenSeries": false,
             "id": 8,
             "legend": {
                 "alignAsTable": true,
@@ -910,6 +911,7 @@
                 "x": 12,
                 "y": 8
             },
+            "hiddenSeries": false,
             "id": 5,
             "legend": {
                 "alignAsTable": true,
@@ -999,6 +1001,7 @@
                 "x": 0,
                 "y": 15
             },
+            "hiddenSeries": false,
             "id": 7,
             "legend": {
                 "alignAsTable": true,
@@ -1102,6 +1105,7 @@
                 "x": 12,
                 "y": 15
             },
+            "hiddenSeries": false,
             "id": 9,
             "legend": {
                 "alignAsTable": true,
@@ -1179,7 +1183,7 @@
         }
     ],
     "refresh": "10s",
-    "schemaVersion": 20,
+    "schemaVersion": 21,
     "style": "dark",
     "tags": [
         "vdbench"
@@ -1225,5 +1229,5 @@
     "timezone": "browser",
     "title": "vdbench",
     "uid": "lmRGfotWk",
-    "version": 2
+    "version": 1
 }

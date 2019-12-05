@@ -1,0 +1,13 @@
+---
+apiVersion: snapshot.storage.k8s.io/v1alpha1
+kind: VolumeSnapshot
+metadata:
+  labels:
+    app: grafana
+  name: grafana-snap
+  namespace: benchmark
+spec:
+  snapshotClassName: csi-snapclass
+  source:
+    name: grafana-pvc
+    kind: PersistentVolumeClaim
