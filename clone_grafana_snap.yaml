@@ -3,8 +3,8 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   labels:
-    app: vdbench
-  name: vdbench-pvc
+    app: grafana
+  name: grafana-snap-clone
   namespace: benchmark
 spec:
   storageClassName: gold
@@ -12,4 +12,8 @@ spec:
     - ReadWriteMany
   resources:
     requests:
-      storage: 1Ti
+      storage: 100Gi
+  dataSource:
+    name: grafana-snap
+    kind: VolumeSnapshot
+    apiGroup: snapshot.storage.k8s.io

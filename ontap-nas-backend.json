@@ -1,0 +1,20 @@
+{
+    "version": 1,
+    "storageDriverName": "ontap-nas",
+    "backendName": "gemini-nas",
+    "managementLIF": "10.67.152.193",
+    "dataLIF": "10.67.152.194",
+    "svm": "docker",
+    "username": "vsadmin",
+    "password": "netapp13!",
+    "limitAggregateUsage": "80%",
+    "limitVolumeSize": "1Ti",
+    "nfsMountOptions": "nfsvers=3",
+    "defaults": {
+        "spaceReserve": "none",
+        "exportPolicy": "default",
+        "snapshotPolicy": "default",
+        "snapshotReserve": "10",
+        "snapshotDir": "true"
+    }
+}
