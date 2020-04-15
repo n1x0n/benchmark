@@ -7,7 +7,6 @@
     "svm": "docker",
     "username": "vsadmin",
     "password": "netapp13!",
-    "limitAggregateUsage": "80%",
     "limitVolumeSize": "1Ti",
     "nfsMountOptions": "nfsvers=3",
     "defaults": {

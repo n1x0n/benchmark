@@ -1,0 +1,30 @@
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: benchmark-service-account
+  namespace: benchmark
+---
+kind: Role
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: benchmark-role
+  namespace: benchmark
+rules:
+  - apiGroups: [""]
+    resources: ["*"]
+    verbs: ["get", "list", "watch"]
+---
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: benchmark-role-binding
+  namespace: benchmark
+subjects:
+  - kind: ServiceAccount
+    name: benchmark-service-account
+    namespace: benchmark
+roleRef:
+  kind: Role
+  name: benchmark-role
+  apiGroup: rbac.authorization.k8s.io
