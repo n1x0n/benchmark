@@ -9,9 +9,13 @@
     "password": "netapp13!",
     "limitVolumeSize": "1Ti",
     "nfsMountOptions": "nfsvers=3",
+    "storagePrefix": "k8s",
+    "autoExportCIDRs": [
+        "10.67.152.0/23"
+    ],
+    "autoExportPolicy": true,
     "defaults": {
         "spaceReserve": "none",
-        "exportPolicy": "default",
         "snapshotPolicy": "default",
         "snapshotReserve": "10",
         "snapshotDir": "true"
