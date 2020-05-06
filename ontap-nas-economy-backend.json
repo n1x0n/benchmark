@@ -1,7 +1,7 @@
 {
     "version": 1,
-    "storageDriverName": "ontap-nas",
-    "backendName": "gemini-nas",
+    "storageDriverName": "ontap-nas-economy",
+    "backendName": "gemini-nas-economy",
     "managementLIF": "10.67.152.193",
     "dataLIF": "10.67.152.194",
     "svm": "docker",
@@ -15,14 +15,14 @@
     ],
     "autoExportPolicy": true,
     "defaults": {
-        "spaceReserve": "none",
         "snapshotPolicy": "default",
         "snapshotReserve": "10",
-        "snapshotDir": "true"
+        "snapshotDir": "true",
+        "spaceReserve": "none"
     },
     "storage": [
         {
             "labels":{"system":"gemini", "type":"aff"}
-	}
+        }
     ]
 }

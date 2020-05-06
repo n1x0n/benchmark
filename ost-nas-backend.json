@@ -1,10 +1,10 @@
 {
     "version": 1,
     "storageDriverName": "ontap-nas",
-    "backendName": "gemini-nas",
-    "managementLIF": "10.67.152.193",
-    "dataLIF": "10.67.152.194",
-    "svm": "docker",
+    "backendName": "select-nas",
+    "managementLIF": "10.67.153.114",
+    "dataLIF": "10.67.153.113",
+    "svm": "trident",
     "username": "vsadmin",
     "password": "netapp13!",
     "limitVolumeSize": "1Ti",
@@ -22,7 +22,7 @@
     },
     "storage": [
         {
-            "labels":{"system":"gemini", "type":"aff"}
-	}
+            "labels":{"system":"select", "type":"select"}
+        }
     ]
 }
