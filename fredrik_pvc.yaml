@@ -5,7 +5,7 @@ metadata:
   name: fredrik
   namespace: default
 spec:
-  storageClassName: silver
+  storageClassName: gold
   accessModes:
     - ReadWriteMany
   resources:

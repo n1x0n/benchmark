@@ -1,0 +1,28 @@
+{
+    "version": 1,
+    "storageDriverName": "ontap-nas",
+    "backendName": "cvo-nas",
+    "managementLIF": "172.31.0.195",
+    "dataLIF": "172.31.0.117",
+    "svm": "svm_fredrik",
+    "username": "vsadmin",
+    "password": "netapp13!",
+    "limitVolumeSize": "1Ti",
+    "nfsMountOptions": "nfsvers=3",
+    "storagePrefix": "k8s",
+    "autoExportCIDRs": [
+        "172.31.0.0/16"
+    ],
+    "autoExportPolicy": true,
+    "defaults": {
+        "spaceReserve": "none",
+        "snapshotPolicy": "default",
+        "snapshotReserve": "10",
+        "snapshotDir": "true"
+    },
+    "storage": [
+        {
+            "labels":{"system":"cloud", "type":"cloud"}
+	}
+    ]
+}
