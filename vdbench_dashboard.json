@@ -1,14 +1,16 @@
 {
     "annotations": {
-        "list": [{
-            "builtIn": 1,
-            "datasource": "-- Grafana --",
-            "enable": true,
-            "hide": true,
-            "iconColor": "rgba(0, 211, 255, 1)",
-            "name": "Annotations & Alerts",
-            "type": "dashboard"
-        }]
+        "list": [
+            {
+                "builtIn": 1,
+                "datasource": "-- Grafana --",
+                "enable": true,
+                "hide": true,
+                "iconColor": "rgba(0, 211, 255, 1)",
+                "name": "Annotations & Alerts",
+                "type": "dashboard"
+            }
+        ]
     },
     "description": "",
     "editable": true,
@@ -16,7 +18,8 @@
     "graphTooltip": 1,
     "id": 1,
     "links": [],
-    "panels": [{
+    "panels": [
+        {
             "collapsed": false,
             "datasource": null,
             "gridPos": {
@@ -60,7 +63,8 @@
             "interval": null,
             "links": [],
             "mappingType": 1,
-            "mappingTypes": [{
+            "mappingTypes": [
+                {
                     "name": "value to text",
                     "value": 1
                 },
@@ -72,16 +76,17 @@
             "maxDataPoints": 100,
             "nullPointMode": "connected",
             "nullText": null,
-            "options": {},
             "postfix": "",
             "postfixFontSize": "50%",
             "prefix": "",
             "prefixFontSize": "50%",
-            "rangeMaps": [{
-                "from": "null",
-                "text": "N/A",
-                "to": "null"
-            }],
+            "rangeMaps": [
+                {
+                    "from": "null",
+                    "text": "N/A",
+                    "to": "null"
+                }
+            ],
             "sparkline": {
                 "fillColor": "rgba(31, 118, 189, 0.18)",
                 "full": true,
@@ -89,11 +94,13 @@
                 "show": true
             },
             "tableColumn": "",
-            "targets": [{
-                "refId": "A",
-                "target": "averageSeries(netapp.vdbench.*.ioresp)",
-                "textEditor": false
-            }],
+            "targets": [
+                {
+                    "refId": "A",
+                    "target": "averageSeries(netapp.vdbench.*.ioresp)",
+                    "textEditor": false
+                }
+            ],
             "thresholds": "5,10",
             "title": "Latency",
             "type": "singlestat",
@@ -131,7 +138,8 @@
             "interval": null,
             "links": [],
             "mappingType": 1,
-            "mappingTypes": [{
+            "mappingTypes": [
+                {
                     "name": "value to text",
                     "value": 1
                 },
@@ -143,16 +151,17 @@
             "maxDataPoints": 100,
             "nullPointMode": "connected",
             "nullText": null,
-            "options": {},
             "postfix": "",
             "postfixFontSize": "50%",
             "prefix": "",
             "prefixFontSize": "50%",
-            "rangeMaps": [{
-                "from": "null",
-                "text": "N/A",
-                "to": "null"
-            }],
+            "rangeMaps": [
+                {
+                    "from": "null",
+                    "text": "N/A",
+                    "to": "null"
+                }
+            ],
             "sparkline": {
                 "fillColor": "rgba(31, 118, 189, 0.18)",
                 "full": true,
@@ -160,11 +169,13 @@
                 "show": true
             },
             "tableColumn": "",
-            "targets": [{
-                "refId": "A",
-                "target": "averageSeries(netapp.vdbench.*.readresp)",
-                "textEditor": false
-            }],
+            "targets": [
+                {
+                    "refId": "A",
+                    "target": "averageSeries(netapp.vdbench.*.readresp)",
+                    "textEditor": false
+                }
+            ],
             "thresholds": "5,10",
             "title": "Read Latency",
             "type": "singlestat",
@@ -202,7 +213,8 @@
             "interval": null,
             "links": [],
             "mappingType": 1,
-            "mappingTypes": [{
+            "mappingTypes": [
+                {
                     "name": "value to text",
                     "value": 1
                 },
@@ -214,16 +226,17 @@
             "maxDataPoints": 100,
             "nullPointMode": "connected",
             "nullText": null,
-            "options": {},
             "postfix": "",
             "postfixFontSize": "50%",
             "prefix": "",
             "prefixFontSize": "50%",
-            "rangeMaps": [{
-                "from": "null",
-                "text": "N/A",
-                "to": "null"
-            }],
+            "rangeMaps": [
+                {
+                    "from": "null",
+                    "text": "N/A",
+                    "to": "null"
+                }
+            ],
             "sparkline": {
                 "fillColor": "rgba(31, 118, 189, 0.18)",
                 "full": true,
@@ -231,11 +244,13 @@
                 "show": true
             },
             "tableColumn": "",
-            "targets": [{
-                "refId": "A",
-                "target": "averageSeries(netapp.vdbench.*.writeresp)",
-                "textEditor": false
-            }],
+            "targets": [
+                {
+                    "refId": "A",
+                    "target": "averageSeries(netapp.vdbench.*.writeresp)",
+                    "textEditor": false
+                }
+            ],
             "thresholds": "5,10",
             "title": "Write Latency",
             "type": "singlestat",
@@ -273,7 +288,8 @@
             "interval": null,
             "links": [],
             "mappingType": 1,
-            "mappingTypes": [{
+            "mappingTypes": [
+                {
                     "name": "value to text",
                     "value": 1
                 },
@@ -285,16 +301,17 @@
             "maxDataPoints": 100,
             "nullPointMode": "connected",
             "nullText": null,
-            "options": {},
             "postfix": "",
             "postfixFontSize": "50%",
             "prefix": "",
             "prefixFontSize": "50%",
-            "rangeMaps": [{
-                "from": "null",
-                "text": "N/A",
-                "to": "null"
-            }],
+            "rangeMaps": [
+                {
+                    "from": "null",
+                    "text": "N/A",
+                    "to": "null"
+                }
+            ],
             "sparkline": {
                 "fillColor": "rgba(31, 118, 189, 0.18)",
                 "full": true,
@@ -302,11 +319,13 @@
                 "show": true
             },
             "tableColumn": "",
-            "targets": [{
-                "refId": "A",
-                "target": "stdev(averageSeries(netapp.vdbench.*.ioresp), 5, 0.1)",
-                "textEditor": false
-            }],
+            "targets": [
+                {
+                    "refId": "A",
+                    "target": "stdev(averageSeries(netapp.vdbench.*.ioresp), 5, 0.1)",
+                    "textEditor": false
+                }
+            ],
             "thresholds": "5,10",
             "title": "Std Dev Latency",
             "type": "singlestat",
@@ -344,7 +363,8 @@
             "interval": null,
             "links": [],
             "mappingType": 1,
-            "mappingTypes": [{
+            "mappingTypes": [
+                {
                     "name": "value to text",
                     "value": 1
                 },
@@ -356,16 +376,17 @@
             "maxDataPoints": 100,
             "nullPointMode": "connected",
             "nullText": null,
-            "options": {},
             "postfix": "",
             "postfixFontSize": "50%",
             "prefix": "",
             "prefixFontSize": "50%",
-            "rangeMaps": [{
-                "from": "null",
-                "text": "N/A",
-                "to": "null"
-            }],
+            "rangeMaps": [
+                {
+                    "from": "null",
+                    "text": "N/A",
+                    "to": "null"
+                }
+            ],
             "sparkline": {
                 "fillColor": "rgba(31, 118, 189, 0.18)",
                 "full": true,
@@ -373,11 +394,13 @@
                 "show": true
             },
             "tableColumn": "",
-            "targets": [{
-                "refId": "A",
-                "target": "maxSeries(netapp.vdbench.*.ioresp)",
-                "textEditor": false
-            }],
+            "targets": [
+                {
+                    "refId": "A",
+                    "target": "maxSeries(netapp.vdbench.*.ioresp)",
+                    "textEditor": false
+                }
+            ],
             "thresholds": "50,100",
             "title": "Max Latency",
             "type": "singlestat",
@@ -415,7 +438,8 @@
             "interval": null,
             "links": [],
             "mappingType": 1,
-            "mappingTypes": [{
+            "mappingTypes": [
+                {
                     "name": "value to text",
                     "value": 1
                 },
@@ -427,16 +451,17 @@
             "maxDataPoints": 100,
             "nullPointMode": "connected",
             "nullText": null,
-            "options": {},
             "postfix": "",
             "postfixFontSize": "50%",
             "prefix": "",
             "prefixFontSize": "50%",
-            "rangeMaps": [{
-                "from": "null",
-                "text": "N/A",
-                "to": "null"
-            }],
+            "rangeMaps": [
+                {
+                    "from": "null",
+                    "text": "N/A",
+                    "to": "null"
+                }
+            ],
             "sparkline": {
                 "fillColor": "rgba(31, 118, 189, 0.18)",
                 "full": true,
@@ -444,10 +469,12 @@
                 "show": true
             },
             "tableColumn": "",
-            "targets": [{
-                "refId": "A",
-                "target": "sumSeries(netapp.vdbench.*.iorate)"
-            }],
+            "targets": [
+                {
+                    "refId": "A",
+                    "target": "sumSeries(netapp.vdbench.*.iorate)"
+                }
+            ],
             "thresholds": "",
             "title": "IOPS",
             "type": "singlestat",
@@ -486,7 +513,8 @@
             "interval": null,
             "links": [],
             "mappingType": 1,
-            "mappingTypes": [{
+            "mappingTypes": [
+                {
                     "name": "value to text",
                     "value": 1
                 },
@@ -498,16 +526,17 @@
             "maxDataPoints": 100,
             "nullPointMode": "connected",
             "nullText": null,
-            "options": {},
             "postfix": "",
             "postfixFontSize": "50%",
             "prefix": "",
             "prefixFontSize": "50%",
-            "rangeMaps": [{
-                "from": "null",
-                "text": "N/A",
-                "to": "null"
-            }],
+            "rangeMaps": [
+                {
+                    "from": "null",
+                    "text": "N/A",
+                    "to": "null"
+                }
+            ],
             "sparkline": {
                 "fillColor": "rgba(31, 118, 189, 0.18)",
                 "full": true,
@@ -515,11 +544,13 @@
                 "show": true
             },
             "tableColumn": "",
-            "targets": [{
-                "refId": "A",
-                "target": "scale(scale(sumSeries(netapp.vdbench.*.mbstotal), 1024), 1024)",
-                "textEditor": false
-            }],
+            "targets": [
+                {
+                    "refId": "A",
+                    "target": "scale(scale(sumSeries(movingAverage(netapp.vdbench.*.mbstotal, \"10s\")), 1024), 1024)",
+                    "textEditor": true
+                }
+            ],
             "thresholds": "",
             "title": "Throughput",
             "type": "singlestat",
@@ -557,7 +588,8 @@
             "interval": null,
             "links": [],
             "mappingType": 1,
-            "mappingTypes": [{
+            "mappingTypes": [
+                {
                     "name": "value to text",
                     "value": 1
                 },
@@ -569,16 +601,17 @@
             "maxDataPoints": 100,
             "nullPointMode": "connected",
             "nullText": null,
-            "options": {},
             "postfix": "",
             "postfixFontSize": "50%",
             "prefix": "",
             "prefixFontSize": "50%",
-            "rangeMaps": [{
-                "from": "null",
-                "text": "N/A",
-                "to": "null"
-            }],
+            "rangeMaps": [
+                {
+                    "from": "null",
+                    "text": "N/A",
+                    "to": "null"
+                }
+            ],
             "sparkline": {
                 "fillColor": "rgba(31, 118, 189, 0.18)",
                 "full": true,
@@ -586,11 +619,13 @@
                 "show": true
             },
             "tableColumn": "",
-            "targets": [{
-                "refId": "A",
-                "target": "averageSeries(netapp.vdbench.*.xfersize)",
-                "textEditor": false
-            }],
+            "targets": [
+                {
+                    "refId": "A",
+                    "target": "averageSeries(netapp.vdbench.*.xfersize)",
+                    "textEditor": false
+                }
+            ],
             "thresholds": "",
             "title": "Transfer Size (Avg)",
             "type": "singlestat",
@@ -628,7 +663,8 @@
             "interval": null,
             "links": [],
             "mappingType": 1,
-            "mappingTypes": [{
+            "mappingTypes": [
+                {
                     "name": "value to text",
                     "value": 1
                 },
@@ -640,16 +676,17 @@
             "maxDataPoints": 100,
             "nullPointMode": "connected",
             "nullText": null,
-            "options": {},
             "postfix": "",
             "postfixFontSize": "50%",
             "prefix": "",
             "prefixFontSize": "50%",
-            "rangeMaps": [{
-                "from": "null",
-                "text": "N/A",
-                "to": "null"
-            }],
+            "rangeMaps": [
+                {
+                    "from": "null",
+                    "text": "N/A",
+                    "to": "null"
+                }
+            ],
             "sparkline": {
                 "fillColor": "rgba(31, 118, 189, 0.18)",
                 "full": false,
@@ -657,11 +694,13 @@
                 "show": true
             },
             "tableColumn": "",
-            "targets": [{
-                "refId": "A",
-                "target": "averageSeries(netapp.vdbench.*.cputotal)",
-                "textEditor": false
-            }],
+            "targets": [
+                {
+                    "refId": "A",
+                    "target": "averageSeries(netapp.vdbench.*.cputotal)",
+                    "textEditor": false
+                }
+            ],
             "thresholds": "",
             "title": "CPU Usage",
             "type": "singlestat",
@@ -699,7 +738,8 @@
             "interval": null,
             "links": [],
             "mappingType": 1,
-            "mappingTypes": [{
+            "mappingTypes": [
+                {
                     "name": "value to text",
                     "value": 1
                 },
@@ -711,16 +751,17 @@
             "maxDataPoints": 100,
             "nullPointMode": "connected",
             "nullText": null,
-            "options": {},
             "postfix": "",
             "postfixFontSize": "50%",
             "prefix": "",
             "prefixFontSize": "50%",
-            "rangeMaps": [{
-                "from": "null",
-                "text": "N/A",
-                "to": "null"
-            }],
+            "rangeMaps": [
+                {
+                    "from": "null",
+                    "text": "N/A",
+                    "to": "null"
+                }
+            ],
             "sparkline": {
                 "fillColor": "rgba(31, 118, 189, 0.18)",
                 "full": true,
@@ -728,17 +769,128 @@
                 "show": true
             },
             "tableColumn": "",
-            "targets": [{
-                "refId": "A",
-                "target": "averageSeries(netapp.vdbench.*.readpct)",
-                "textEditor": false
-            }],
+            "targets": [
+                {
+                    "refId": "A",
+                    "target": "averageSeries(netapp.vdbench.*.readpct)",
+                    "textEditor": false
+                }
+            ],
             "thresholds": "",
             "title": "Read Ratio",
             "type": "singlestat",
             "valueFontSize": "80%",
             "valueMaps": [],
             "valueName": "current"
+        },
+        {
+            "cacheTimeout": null,
+            "datasource": "Graphite",
+            "gridPos": {
+                "h": 3,
+                "w": 4,
+                "x": 16,
+                "y": 4
+            },
+            "hideTimeOverride": true,
+            "id": 20,
+            "links": [],
+            "maxDataPoints": "10",
+            "options": {
+                "displayMode": "basic",
+                "fieldOptions": {
+                    "calcs": [
+                        "last"
+                    ],
+                    "defaults": {
+                        "mappings": [],
+                        "nullValueMode": "connected",
+                        "thresholds": {
+                            "mode": "absolute",
+                            "steps": [
+                                {
+                                    "color": "green",
+                                    "value": null
+                                }
+                            ]
+                        },
+                        "unit": "MBs"
+                    },
+                    "overrides": [],
+                    "values": false
+                },
+                "orientation": "horizontal",
+                "showUnfilled": true
+            },
+            "pluginVersion": "6.7.3",
+            "targets": [
+                {
+                    "hide": false,
+                    "refCount": 0,
+                    "refId": "A",
+                    "target": "sortByName(aliasSub(aliasByNode(highestCurrent(maximumAbove(movingAverage(netapp.vdbench.*.mbstotal, '10s'), 0), 3), 2), '(.*)-(.*)-(.*)', '\\3'))",
+                    "textEditor": false
+                }
+            ],
+            "timeFrom": "30s",
+            "title": "Highest MB/s",
+            "type": "bargauge"
+        },
+        {
+            "cacheTimeout": null,
+            "datasource": "Graphite",
+            "gridPos": {
+                "h": 3,
+                "w": 4,
+                "x": 20,
+                "y": 4
+            },
+            "hideTimeOverride": true,
+            "id": 21,
+            "links": [],
+            "options": {
+                "colorMode": "value",
+                "fieldOptions": {
+                    "calcs": [
+                        "last"
+                    ],
+                    "defaults": {
+                        "mappings": [],
+                        "thresholds": {
+                            "mode": "absolute",
+                            "steps": [
+                                {
+                                    "color": "green",
+                                    "value": null
+                                },
+                                {
+                                    "color": "red",
+                                    "value": 80
+                                }
+                            ]
+                        }
+                    },
+                    "overrides": [],
+                    "values": false
+                },
+                "graphMode": "area",
+                "justifyMode": "auto",
+                "orientation": "auto"
+            },
+            "pluginVersion": "6.7.3",
+            "targets": [
+                {
+                    "hide": false,
+                    "refCount": -1,
+                    "refId": "A",
+                    "target": "sumSeries(changed(netapp.vdbench.*.iorate))",
+                    "textEditor": false
+                }
+            ],
+            "timeFrom": null,
+            "timeShift": null,
+            "title": "Current Workers",
+            "type": "stat"
         },
         {
             "collapsed": false,
@@ -797,15 +949,18 @@
             "pointradius": 5,
             "points": false,
             "renderer": "flot",
-            "seriesOverrides": [{
-                "alias": "Max Latency",
-                "fillBelowTo": "Latency",
-                "lines": false
-            }],
+            "seriesOverrides": [
+                {
+                    "alias": "Max Latency",
+                    "fillBelowTo": "Latency",
+                    "lines": false
+                }
+            ],
             "spaceLength": 10,
             "stack": false,
             "steppedLine": false,
-            "targets": [{
+            "targets": [
+                {
                     "refCount": 0,
                     "refId": "A",
                     "target": "alias(averageSeries(netapp.vdbench.*.ioresp), 'Latency')",
@@ -838,7 +993,8 @@
                     "textEditor": false
                 }
             ],
-            "thresholds": [{
+            "thresholds": [
+                {
                     "colorMode": "custom",
                     "fill": true,
                     "fillColor": "rgba(216, 200, 27, 0.27)",
@@ -873,7 +1029,8 @@
                 "show": true,
                 "values": []
             },
-            "yaxes": [{
+            "yaxes": [
+                {
                     "format": "ms",
                     "logBase": 1,
                     "max": null,
@@ -939,11 +1096,13 @@
             "spaceLength": 10,
             "stack": true,
             "steppedLine": false,
-            "targets": [{
-                "refCount": 0,
-                "refId": "B",
-                "target": "alias(sumSeries(netapp.vdbench.*.iorate), 'IOPS')"
-            }],
+            "targets": [
+                {
+                    "refCount": 0,
+                    "refId": "B",
+                    "target": "alias(sumSeries(netapp.vdbench.*.iorate), 'IOPS')"
+                }
+            ],
             "thresholds": [],
             "timeFrom": null,
             "timeRegions": [],
@@ -963,7 +1122,8 @@
                 "show": true,
                 "values": []
             },
-            "yaxes": [{
+            "yaxes": [
+                {
                     "format": "short",
                     "logBase": 1,
                     "max": null,
@@ -1030,7 +1190,8 @@
             "spaceLength": 10,
             "stack": false,
             "steppedLine": false,
-            "targets": [{
+            "targets": [
+                {
                     "refCount": 0,
                     "refId": "A",
                     "target": "alias(sumSeries(scale(scale(netapp.vdbench.*.mbstotal, 1024), 1024)), 'Throughput')",
@@ -1068,7 +1229,8 @@
                 "show": true,
                 "values": []
             },
-            "yaxes": [{
+            "yaxes": [
+                {
                     "format": "Bps",
                     "logBase": 1,
                     "max": null,
@@ -1130,18 +1292,22 @@
             "pointradius": 5,
             "points": false,
             "renderer": "flot",
-            "seriesOverrides": [{
-                "alias": "CPU"
-            }],
+            "seriesOverrides": [
+                {
+                    "alias": "CPU"
+                }
+            ],
             "spaceLength": 10,
             "stack": false,
             "steppedLine": false,
-            "targets": [{
-                "refCount": 0,
-                "refId": "A",
-                "target": "aliasByNode(netapp.vdbench.*.cputotal, 2)",
-                "textEditor": false
-            }],
+            "targets": [
+                {
+                    "refCount": 0,
+                    "refId": "A",
+                    "target": "aliasByNode(netapp.vdbench.*.cputotal, 2)",
+                    "textEditor": false
+                }
+            ],
             "thresholds": [],
             "timeFrom": null,
             "timeRegions": [],
@@ -1161,7 +1327,8 @@
                 "show": true,
                 "values": []
             },
-            "yaxes": [{
+            "yaxes": [
+                {
                     "format": "percent",
                     "logBase": 1,
                     "max": null,
@@ -1183,7 +1350,7 @@
         }
     ],
     "refresh": "10s",
-    "schemaVersion": 21,
+    "schemaVersion": 22,
     "style": "dark",
     "tags": [
         "vdbench"
@@ -1229,5 +1396,8 @@
     "timezone": "browser",
     "title": "vdbench",
     "uid": "lmRGfotWk",
-    "version": 1
+    "variables": {
+        "list": []
+    },
+    "version": 9
 }
